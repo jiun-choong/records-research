@@ -26,6 +26,7 @@ This is not an officially supported Google product.
   * By default, this will generate 5 randomly sampled sets of train/validation/test data.
 * Train model using `train.py`
   * `python train.py <path to TFRecords> <output path>`.
+  * Note!! You need to reference one of the folds in TFRecords, you cannot use that directory instantly because it expects tf checkpoints
 
 ### Implementation detail
 We implement the following files to run the model:
